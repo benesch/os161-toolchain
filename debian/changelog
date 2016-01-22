@@ -1,3 +1,9 @@
+os161-toolchain (1.1) precise; urgency=medium
+
+  * Depend on binutils-mips-harvard-os161
+
+ -- Nikhil Benesch <nikhil.benesch@gmail.com>  Fri, 22 Jan 2016 11:28:39 -0800
+
 os161-toolchain (1.0) precise; urgency=low
 
   * Initial version

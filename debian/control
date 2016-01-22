@@ -7,6 +7,7 @@ Standards-Version: 3.9.2
 
 Package: os161-toolchain
 Architecture: all
-Depends: bmake, sys161, gcc-mips-harvard-os161, gdb-mips-harvard-os161
+Depends: bmake, sys161, gcc-mips-harvard-os161, gdb-mips-harvard-os161,
+ binutils-mips-harvard-os161
 Description: Toolchain for OS/161
  Installs all necessary tools for compiling and running an OS/161 kernel.
