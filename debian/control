@@ -1,0 +1,12 @@
+Source: os161-toolchain
+Section: metapackages
+Priority: optional
+Maintainer: Nikhil Benesch <nikhil.benesch@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.2
+
+Package: os161-toolchain
+Architecture: all
+Depends: bmake, sys161, gcc-mips-harvard-os161, gdb-mips-harvard-os161
+Description: Toolchain for OS/161
+ Installs all necessary tools for compiling and running an OS/161 kernel.
